@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/check_box.dart';
+import 'package:flutter_app/radio.dart';
 import 'package:flutter_app/scaffold.dart';
+import 'package:flutter_app/switch.dart';
+import 'package:flutter_app/text_field.dart';
 
 
 void main() {
@@ -11,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: const FirstScreen()); //Panggil FirstScreen kesini
+        home: const RadioExample());
   }
 }
 
