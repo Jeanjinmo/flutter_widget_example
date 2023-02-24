@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/check_box.dart';
-import 'package:flutter_app/font.dart';
-import 'package:flutter_app/images.dart';
-import 'package:flutter_app/radio.dart';
-import 'package:flutter_app/scaffold.dart';
-import 'package:flutter_app/switch.dart';
-import 'package:flutter_app/text_field.dart';
+import 'package:flutter_app/widgets/custom_flex_expanded.dart';
 
 
 void main() {
@@ -20,7 +14,7 @@ class MyApp extends StatelessWidget {
             primarySwatch: Colors.blue,
             fontFamily: 'Oswald' //Mengubah Font Default pada Aplikasi
         ),
-        home: const FontExample());
+        home: ExpandFlexExample());
   }
 }
 
