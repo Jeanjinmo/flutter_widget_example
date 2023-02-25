@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/navigation/first_screen.dart';
 import 'package:flutter_app/widgets/custom_flex_expanded.dart';
 
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
             primarySwatch: Colors.blue,
             fontFamily: 'Oswald' //Mengubah Font Default pada Aplikasi
         ),
-        home: ExpandFlexExample());
+        home: FirstScreen());
   }
 }
 
