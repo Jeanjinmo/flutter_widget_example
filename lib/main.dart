@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/navigation/first_screen.dart';
+import 'package:flutter_app/responsivelayout/layout_builder.dart';
+import 'package:flutter_app/responsivelayout/media_query.dart';
+import 'package:flutter_app/responsivelayout/responsive_design_example.dart';
 import 'package:flutter_app/widgets/custom_flex_expanded.dart';
 
 
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
             primarySwatch: Colors.blue,
             fontFamily: 'Oswald' //Mengubah Font Default pada Aplikasi
         ),
-        home: FirstScreen());
+        home: ResponsivePage());
   }
 }
 
